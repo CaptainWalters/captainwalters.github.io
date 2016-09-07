@@ -1,266 +1,277 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-<title>Oliver Walters</title>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Oxygen:700,400,300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<style media="screen">body{font:15px Oxygen,Arial,Helvetica,sans-serif;background-color:#F0EDED;}section{margin-bottom:2em;}img{border-radius:100px;}a{text-decoration:none;color:#000;}a:hover{text-transform:underline;color:#000;}.bold{font-size:1.1em;font-weight:bold;}#resume{background-color:#FFF;margin-left:10%;margin-right:10%;margin-top:5%;margin-bottom:5%;padding-top:2%;padding-bottom:2%;box-shadow:0px 0px 10px #000;-webkit-box-shadow:0px 0px 10px #000;-moz-box-shadow:0px 0px 10px #000;}#header{background-color:#000;color:#fff;text-align:center;box-shadow:3px 3px 3px 3px black;width:100%;left:0;}#header a{color:#fff;}#header ul li{list-style-type:none;display:inline-block;margin-left:0;}.contact{margin-top:2%;margin-left:-5%;}.location{margin-top:2%;font-size:0.8em;}#basics .summary{text-align:center;}.media{margin-top:2%;}.media-item{display:inline-block;}#work,#volunteer,#education,#awards,#publications,#skills,#languages,#interests{border-bottom:1px dotted #eee;}#work .section-info{font-size:1.2em;color:#FFF;background-color:#0099CC;border-radius:0;left:1%;right:1%;text-align:center;line-height:3em;}#volunteer .section-info{font-size:1.2em;color:#FFF;background-color:#D4A017;border-radius:0;right:1%;text-align:center;line-height:3em;}#education .section-info{font-size:1.2em;color:#FFF;background-color:#438D80;border-radius:0;left:1%;right:1%;text-align:center;line-height:3em;}#awards .section-info{font-size:1.2em;color:#FFF;background-color:#954535;border-radius:0;right:1%;text-align:center;line-height:3em;}#publications .section-info{font-size:1.2em;color:#FFF;background-color:#B2C248;border-radius:0;left:1%;right:1%;text-align:center;line-height:3em;}#skills .section-info{font-size:1.2em;color:#FFF;background-color:#CC6600;border-radius:0;right:1%;text-align:center;line-height:3em;}#languages .section-info{font-size:1.2em;color:#FFF;background-color:#306754;border-radius:0;left:1%;right:1%;text-align:center;line-height:3em;}#interests .section-info{font-size:1.2em;color:#FFF;background-color:#6F4E37;border-radius:0;right:1%;text-align:center;line-height:3em;}#references .section-info{font-size:1.2em;color:#FFF;background-color:#85BB65;border-radius:0;left:1%;right:1%;text-align:center;line-height:3em;}#work .work-item,#volunteer .volunteer-item,#education .education-item,#awards .award-item,#publications .pub-item,#languages .lang-item,#interests .interest-item,#references .ref-item{padding-left:2%;padding-bottom:2%;padding-top:0.2em;}#work .work-item:hover,#volunteer .volunteer-item:hover,#education .education-item:hover,#awards .award-item:hover,#publications .pub-item:hover,#languages .lang-item:hover,#interests .interest-item:hover,#references .ref-item:hover{background-color:#EEE;}#work .work-position,#volunteer .volunteer-position,#education .education-institution,#awards .award-title,#publications .pub-name,#languages .lang-name,#interests .interest-name{text-transform:uppercase;font-size:1.2em;font-weight:bold;}#work .work-position,#work .duration{color:#0099CC}#volunteer .volunteer-position,#volunteer .duration{color:#D4A017;}#education .education-institution,#education .duration{color:#438D80;}#awards .award-title,#awards .award-date{color:#954535;}#publications .pub-name,#publications .pub-date{color:#B2C248;}#languages .lang-name{color:#306754;}#interests .interest-name{color:#6F4E37;}#references .ref-text{word-wrap:break-word;}#references .ref-by{text-align:right;}#work .duration,#volunteer .duration,#education .duration,#awards .award-date,#publications .pub-date,#languages .lang-fluency,#interests .interest-keyword{font-size:1em;text-align:center;}#skills .skills-header th{font-size:1.2em;width:33%;}#skills .skills-rows td{width:33%;}#skills .skills-rows td:first-child{color:#CC6600;}.name{text-transform:uppercase;border-bottom:1px solid white;}.item{margin-bottom:1em;}.small-header{display:none;}@media all and (max-width: 768px) {#work .section-info,#volunteer .section-info,#education .section-info,#awards .section-info,#publications .section-info,#skills .section-info,#languages .section-info,#interests .section-info,#references .section-info{font-size:1.1em;right:0;left:0;}.small-header{display:block;}.big-header{display:none;}#work,#volunteer,#education,#awards,#publications,#languages,#skills,#interests,#references{font-size:0.7em;}.name{font-size:2em;}.media{font-size:0.8em;}#header .contact ul li{display:block;margin-right:10%;}}@media all and (min-width: 769px) and (max-width: 1093px) {#work .section-info,#volunteer .section-info,#education .section-info,#awards .section-info,#publications .section-info,#skills .section-info,#languages .section-info,#interests .section-info,#references .section-info{font-size:0.9em;}}</style>
-<style media="print">body{font:15px Oxygen,Arial,Helvetica,sans-serif;}section{margin-bottom:2em;}img{border-radius:100px;}a{text-decoration:none;color:#000;}a:hover{text-transform:underline;color:#000;}.bold{font-size:1.1em;font-weight:bold;}#header{background-color:#000;color:#fff;text-align:center;box-shadow:3px 3px 3px 3px black;width:100%;left:0;}#header a{color:#fff;}#header ul li{list-style-type:none;display:inline-block;margin-left:0;}.contact{margin-top:2%;margin-left:-5%;}.location{margin-top:2%;font-size:0.8em;}#basics .summary{text-align:center;}.media{margin-top:2%;}.media-item{display:inline-block;}#work,#volunteer,#education,#awards,#publications,#skills,#languages,#interests{border-bottom:1px dotted #eee;}#work .section-info{font-size:2em;color:#FFF;background-color:#0099CC;border-radius:0;left:1%;right:1%;text-align:center;line-height:1em;}#volunteer .section-info{font-size:2em;color:#FFF;background-color:#D4A017;border-radius:0;right:1%;text-align:center;line-height:1em;}#education .section-info{font-size:2em;color:#FFF;background-color:#438D80;border-radius:0;left:1%;right:1%;text-align:center;line-height:1em;}#awards .section-info{font-size:2em;color:#FFF;background-color:#954535;border-radius:0;right:1%;text-align:center;line-height:1em;}#publications .section-info{font-size:2em;color:#FFF;background-color:#B2C248;border-radius:0;left:1%;right:1%;text-align:center;line-height:1em;}#skills .section-info{font-size:2em;color:#FFF;background-color:#CC6600;border-radius:0;right:1%;text-align:center;line-height:1em;}#languages .section-info{font-size:2em;color:#FFF;background-color:#306754;border-radius:0;left:1%;right:1%;text-align:center;line-height:1em;}#interests .section-info{font-size:2em;color:#FFF;background-color:#6F4E37;border-radius:0;right:1%;text-align:center;line-height:1em;}#references .section-info{font-size:2em;color:#FFF;background-color:#85BB65;border-radius:0;left:1%;right:1%;text-align:center;line-height:1em;}#work .work-item,#volunteer .volunteer-item,#education .education-item,#awards .award-item,#publications .pub-item,#languages .lang-item,#interests .interest-item,#references .ref-item{padding-left:2%;padding-bottom:2%;padding-top:0.2em;}#work .work-item:hover,#volunteer .volunteer-item:hover,#education .education-item:hover,#awards .award-item:hover,#publications .pub-item:hover,#languages .lang-item:hover,#interests .interest-item:hover,#references .ref-item:hover{background-color:#EEE;}#work .work-position,#volunteer .volunteer-position,#education .education-institution,#awards .award-title,#publications .pub-name,#languages .lang-name,#interests .interest-name{text-transform:uppercase;font-size:1.2em;font-weight:bold;}#work .work-position,#work .duration{color:#0099CC}#volunteer .volunteer-position,#volunteer .duration{color:#D4A017;}#education .education-institution,#education .duration{color:#438D80;}#awards .award-title,#awards .award-date{color:#954535;}#publications .pub-name,#publications .pub-date{color:#B2C248;}#languages .lang-name{color:#306754;}#interests .interest-name{color:#6F4E37;}#references .ref-text{word-wrap:break-word;}#references .ref-by{text-align:right;}#work .duration,#volunteer .duration,#education .duration,#awards .award-date,#publications .pub-date,#languages .lang-fluency,#interests .interest-keyword{font-size:1em;text-align:center;}#skills .skills-header th{font-size:1.2em;width:33%;}#skills .skills-rows td{width:33%;}#skills .skills-rows td:first-child{color:#CC6600;}.name{text-transform:uppercase;border-bottom:1px solid white;}.item{margin-bottom:1em;}.small-header{display:block;}.big-header{display:none;}</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+  <title>Oliver Walters</title>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Oxygen:700,400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <style media="screen">body{font:15px Oxygen,Arial,Helvetica,sans-serif;background-color:#F0EDED;}section{margin-bottom:2em;}img{border-radius:100px;}a{text-decoration:none;color:#000;}a:hover{text-transform:underline;color:#000;}.bold{font-size:1.1em;font-weight:bold;}#resume{background-color:#FFF;margin-left:10%;margin-right:10%;margin-top:5%;margin-bottom:5%;padding-top:2%;padding-bottom:2%;box-shadow:0px 0px 10px #000;-webkit-box-shadow:0px 0px 10px #000;-moz-box-shadow:0px 0px 10px #000;}#header{background-color:#000;color:#fff;text-align:center;box-shadow:3px 3px 3px 3px black;width:100%;left:0;}#header a{color:#fff;}#header ul li{list-style-type:none;display:inline-block;margin-left:0;}.contact{margin-top:2%;margin-left:-5%;}.location{margin-top:2%;font-size:0.8em;}#basics .summary{text-align:center;}.media{margin-top:2%;}.media-item{display:inline-block;}#work,#volunteer,#education,#awards,#publications,#skills,#languages,#interests{border-bottom:1px dotted #eee;}#work .section-info{font-size:1.2em;color:#FFF;background-color:#0099CC;border-radius:0;left:1%;right:1%;text-align:center;line-height:3em;}#volunteer .section-info{font-size:1.2em;color:#FFF;background-color:#D4A017;border-radius:0;right:1%;text-align:center;line-height:3em;}#education .section-info{font-size:1.2em;color:#FFF;background-color:#438D80;border-radius:0;left:1%;right:1%;text-align:center;line-height:3em;}#awards .section-info{font-size:1.2em;color:#FFF;background-color:#954535;border-radius:0;right:1%;text-align:center;line-height:3em;}#publications .section-info{font-size:1.2em;color:#FFF;background-color:#B2C248;border-radius:0;left:1%;right:1%;text-align:center;line-height:3em;}#skills .section-info{font-size:1.2em;color:#FFF;background-color:#CC6600;border-radius:0;right:1%;text-align:center;line-height:3em;}#languages .section-info{font-size:1.2em;color:#FFF;background-color:#306754;border-radius:0;left:1%;right:1%;text-align:center;line-height:3em;}#interests .section-info{font-size:1.2em;color:#FFF;background-color:#6F4E37;border-radius:0;right:1%;text-align:center;line-height:3em;}#references .section-info{font-size:1.2em;color:#FFF;background-color:#85BB65;border-radius:0;left:1%;right:1%;text-align:center;line-height:3em;}#work .work-item,#volunteer .volunteer-item,#education .education-item,#awards .award-item,#publications .pub-item,#languages .lang-item,#interests .interest-item,#references .ref-item{padding-left:2%;padding-bottom:2%;padding-top:0.2em;}#work .work-item:hover,#volunteer .volunteer-item:hover,#education .education-item:hover,#awards .award-item:hover,#publications .pub-item:hover,#languages .lang-item:hover,#interests .interest-item:hover,#references .ref-item:hover{background-color:#EEE;}#work .work-position,#volunteer .volunteer-position,#education .education-institution,#awards .award-title,#publications .pub-name,#languages .lang-name,#interests .interest-name{text-transform:uppercase;font-size:1.2em;font-weight:bold;}#work .work-position,#work .duration{color:#0099CC}#volunteer .volunteer-position,#volunteer .duration{color:#D4A017;}#education .education-institution,#education .duration{color:#438D80;}#awards .award-title,#awards .award-date{color:#954535;}#publications .pub-name,#publications .pub-date{color:#B2C248;}#languages .lang-name{color:#306754;}#interests .interest-name{color:#6F4E37;}#references .ref-text{word-wrap:break-word;}#references .ref-by{text-align:right;}#work .duration,#volunteer .duration,#education .duration,#awards .award-date,#publications .pub-date,#languages .lang-fluency,#interests .interest-keyword{font-size:1em;text-align:center;}#skills .skills-header th{font-size:1.2em;width:33%;}#skills .skills-rows td{width:33%;}#skills .skills-rows td:first-child{color:#CC6600;}.name{text-transform:uppercase;border-bottom:1px solid white;}.item{margin-bottom:1em;}.small-header{display:none;}@media all and (max-width: 768px) {#work .section-info,#volunteer .section-info,#education .section-info,#awards .section-info,#publications .section-info,#skills .section-info,#languages .section-info,#interests .section-info,#references .section-info{font-size:1.1em;right:0;left:0;}.small-header{display:block;}.big-header{display:none;}#work,#volunteer,#education,#awards,#publications,#languages,#skills,#interests,#references{font-size:0.7em;}.name{font-size:2em;}.media{font-size:0.8em;}#header .contact ul li{display:block;margin-right:10%;}}@media all and (min-width: 769px) and (max-width: 1093px) {#work .section-info,#volunteer .section-info,#education .section-info,#awards .section-info,#publications .section-info,#skills .section-info,#languages .section-info,#interests .section-info,#references .section-info{font-size:0.9em;}}</style>
+  <style media="print">body{font:15px Oxygen,Arial,Helvetica,sans-serif;}section{margin-bottom:2em;}img{border-radius:100px;}a{text-decoration:none;color:#000;}a:hover{text-transform:underline;color:#000;}.bold{font-size:1.1em;font-weight:bold;}#header{background-color:#000;color:#fff;text-align:center;box-shadow:3px 3px 3px 3px black;width:100%;left:0;}#header a{color:#fff;}#header ul li{list-style-type:none;display:inline-block;margin-left:0;}.contact{margin-top:2%;margin-left:-5%;}.location{margin-top:2%;font-size:0.8em;}#basics .summary{text-align:center;}.media{margin-top:2%;}.media-item{display:inline-block;}#work,#volunteer,#education,#awards,#publications,#skills,#languages,#interests{border-bottom:1px dotted #eee;}#work .section-info{font-size:2em;color:#FFF;background-color:#0099CC;border-radius:0;left:1%;right:1%;text-align:center;line-height:1em;}#volunteer .section-info{font-size:2em;color:#FFF;background-color:#D4A017;border-radius:0;right:1%;text-align:center;line-height:1em;}#education .section-info{font-size:2em;color:#FFF;background-color:#438D80;border-radius:0;left:1%;right:1%;text-align:center;line-height:1em;}#awards .section-info{font-size:2em;color:#FFF;background-color:#954535;border-radius:0;right:1%;text-align:center;line-height:1em;}#publications .section-info{font-size:2em;color:#FFF;background-color:#B2C248;border-radius:0;left:1%;right:1%;text-align:center;line-height:1em;}#skills .section-info{font-size:2em;color:#FFF;background-color:#CC6600;border-radius:0;right:1%;text-align:center;line-height:1em;}#languages .section-info{font-size:2em;color:#FFF;background-color:#306754;border-radius:0;left:1%;right:1%;text-align:center;line-height:1em;}#interests .section-info{font-size:2em;color:#FFF;background-color:#6F4E37;border-radius:0;right:1%;text-align:center;line-height:1em;}#references .section-info{font-size:2em;color:#FFF;background-color:#85BB65;border-radius:0;left:1%;right:1%;text-align:center;line-height:1em;}#work .work-item,#volunteer .volunteer-item,#education .education-item,#awards .award-item,#publications .pub-item,#languages .lang-item,#interests .interest-item,#references .ref-item{padding-left:2%;padding-bottom:2%;padding-top:0.2em;}#work .work-item:hover,#volunteer .volunteer-item:hover,#education .education-item:hover,#awards .award-item:hover,#publications .pub-item:hover,#languages .lang-item:hover,#interests .interest-item:hover,#references .ref-item:hover{background-color:#EEE;}#work .work-position,#volunteer .volunteer-position,#education .education-institution,#awards .award-title,#publications .pub-name,#languages .lang-name,#interests .interest-name{text-transform:uppercase;font-size:1.2em;font-weight:bold;}#work .work-position,#work .duration{color:#0099CC}#volunteer .volunteer-position,#volunteer .duration{color:#D4A017;}#education .education-institution,#education .duration{color:#438D80;}#awards .award-title,#awards .award-date{color:#954535;}#publications .pub-name,#publications .pub-date{color:#B2C248;}#languages .lang-name{color:#306754;}#interests .interest-name{color:#6F4E37;}#references .ref-text{word-wrap:break-word;}#references .ref-by{text-align:right;}#work .duration,#volunteer .duration,#education .duration,#awards .award-date,#publications .pub-date,#languages .lang-fluency,#interests .interest-keyword{font-size:1em;text-align:center;}#skills .skills-header th{font-size:1.2em;width:33%;}#skills .skills-rows td{width:33%;}#skills .skills-rows td:first-child{color:#CC6600;}.name{text-transform:uppercase;border-bottom:1px solid white;}.item{margin-bottom:1em;}.small-header{display:block;}.big-header{display:none;}</style>
 </head>
 <body>
-<div id="resume" class="container-fluid">
-<section id="header">
-<div class="row">
-<img style="width:200px; height: auto;" src="gitme.jpg"></img>
-</div>
-<div class="row">
-<h1 class="name col-sm-12">Oliver Walters</h1>
-<h4 class="designation col-sm-12">Programmer</h4>
-</div>
-<div class="row media">
-<div id="profiles">
-<div class="media-item">
-<a href="https://twitter.com/captainwalters">Twitter</a>
-</div>
-</div>
-<div class="row contact">
-<ul>
-<li class="col-sm-4">
-<span class="fa fa-globe fa-2x"></span> <a href="https://captainwalters.github.io">https://captainwalters.github.io</a>
-</li>
-<li class="col-sm-4">
-<span class="fa fa-envelope fa-2x"></span> <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="87e8ebeef1e2f5a9f0e6ebf3e2f5f4c7e0eae6eeeba9e4e8ea">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
-</li>
-<li class="col-sm-4">
-<span class="fa fa-phone fa-2x"></span> (+44)7828086377
-</li>
-</ul>
-</div>
-<div class="row location">
-<div class="col-sm-12">
-<span class="fa fa-map-marker fa-2x"></span>
-<span>
-4 Eaton Manor, The Drive,
-BN3-3PT,
-Brighton,
-UK,
-East Sussex
-</span>
-</div>
-</div>
-</section>
-<section id="basics">
-<div class="row summary">
-<span class="fa fa-quote-left fa-2x"></span>
-<span>Oliver is a dedicated and driven developer and community leader. He is a big advocate of student run hackathons and increasing learning and personal development within the community.</span>
-<span class="fa fa-quote-right fa-2x"></span>
-</div>
-</section>
-<section id="work" class="row">
-<div class="col-sm-3 section-info">
-W o r k
-</div>
-<div class="col-sm-9">
-<div class="col-sm-12 work-item">
-<p class="col-sm-7">
-<span class="work-position">President</span>,
-<a href="https://www.hacksocsussex.co.uk">HackSocSussex</a>
-</p>
-<div class="col-sm-12 work-summary">
-<p>
-The University of Sussex’s hackathon society. Generally overseeing the committee, whilst also planning events, outreaching to the students of the university, dealing with the administration and finance and increasing the reputation and exposure for the University of Sussex and it’s students within the hackathon community.
-</p>
-</div>
-<div class="col-sm-12 work-highlights">
-<ul>
-<li>Founded society</li>
-<li>Successfully organised and ran a student hackathon</li>
-</ul>
-</div>
-</div>
-<div class="col-sm-12 work-item">
-<p class="col-sm-7">
-<span class="work-position">Head Organiser</span>,
-<a href="https://www.hacksussex.org">HackSussex</a>
-</p>
-<div class="col-sm-12 work-summary">
-<p>
-The first student run hackathon to take place at the University of Sussex. Securing sponsorship from companies such as GitHub and Brandwatch, along with managing the budget, as well as the organization and logistics of the event. The first event proved to be a complete success with great feedback from sponsors and participants.
-</p>
-</div>
-</div>
-</div>
-</section>
-<section id="volunteer" class="row">
-<div class="col-sm-3 section-info small-header">
-V o l u n t e e r
-</div>
-<div class="col-sm-9">
-<div class="col-sm-12 volunteer-item">
-<p class="col-sm-7">
-<span class="volunteer-position">Ambassador</span>,
-<a href="https://www.stem.org.uk/">STEM learning</a>
-</p>
-<div class="col-sm-12 volunteer-summary">
-<p>
-Helping demonstrate STEM roles to under 19&#x27;s in the local community.
-</p>
-</div>
-<div class="col-sm-12 volunteer-highlights">
-<ul>
-<li>In training</li>
-</ul>
-</div>
-</div>
-<div class="col-sm-12 volunteer-item">
-<p class="col-sm-7">
-<span class="volunteer-position">Buddy Scheme Mentor</span>,
-<a href="http://www.buddyscheme.com/">University of Sussex Students Union</a>
-</p>
-<div class="col-sm-12 volunteer-summary">
-<p>
-Helping new students get to grips with the environment and university life.
-</p>
-</div>
-</div>
-</div>
-<div class="col-sm-3 section-info big-header">
-V o l u n t e e r
-</div>
-</section>
-<section id="education" class="row">
-<div class="col-sm-3 section-info">
-E d u c a t i o n
-</div>
-<div class="col-sm-9">
-<div class="col-sm-12 education-item">
-<p class="col-sm-7">
-<span class="education-institution fa fa-university">University of Sussex</span>
-</p>
-<p class="col-sm-5 duration">
-<span class="fa fa-clock-o"></span>
-2015-09-16 -- 2019-06-11
-</p>
-<div class="col-sm-12 education-subject">
-<p>
-<span class="bold">Area :</span> Computing Sciences
-| <span class="bold">Level :</span> Bachelor
-</p>
-</div>
-</div>
-<div class="col-sm-12 education-item">
-<p class="col-sm-7">
-<span class="education-institution fa fa-university">City College of Brighton and Hove</span>
-</p>
-<p class="col-sm-5 duration">
-<span class="fa fa-clock-o"></span>
-2013-09-04 -- 2014-06-23
-</p>
-<div class="col-sm-12 education-subject">
-<p>
-<span class="bold">Area :</span> Access to Computing
-| <span class="bold">Level :</span> Access to Higher Education
-</p>
-</div>
-</div>
-</div>
-</section>
-<section id="skills" class="row">
-<div class="col-sm-3 section-info small-header">
-S k i l l s
-</div>
-<div class="col-sm-9">
-<table class="table table-hover">
-<tr class="skills-header">
-<th>Skill</th>
-<th>Level</th>
-<th>Specifics</th>
-</tr>
-<tr class="skills-rows">
-<td class="bold">Web Development</td>
-<td>Working knowledge</td>
-<td>
-HTML,
-CSS,
-Javascript,
-Jquery
-</td>
-</tr>
-<tr class="skills-rows">
-<td class="bold">Programming</td>
-<td>Working knowledge</td>
-<td>
-Java,
-C,
-C++
-</td>
-</tr>
-<tr class="skills-rows">
-<td class="bold">Programming</td>
-<td>Basic knowledge</td>
-<td>
-Python,
-VBA,
-VB.net
-</td>
-</tr>
-<tr class="skills-rows">
-<td class="bold">Databases</td>
-<td>Basic knowledge</td>
-<td>
-MS Access,
-MySQL
-</td>
-</tr>
-</table>
-</div>
-<div class="col-sm-3 section-info big-header">
-S k i l l s
-</div>
-</section>
-<section id="languages" class="row">
-<div class="col-sm-3 section-info">
-L a n g u a g e s
-</div>
-<div class="col-sm-9">
-<div class="col-sm-12 lang-item">
-<span class="lang-name fa fa-language"> English</span>
-<span class="lang-fluency fa fa-ellipsis-h"> Native speaker</span>
-</div>
-</div>
-</section>
-<section id="interests" class="row">
-<div class="col-sm-3 section-info small-header">
-I n t e r e s t s
-</div>
-<div class="col-sm-9">
-<div class="interest-item">
-<span class="interest-name">Hackathons</span>
-<span class="interest-keyword">
-Mentoring,
-</span>
-<span class="interest-keyword">
-Competing
-</span>
-</div>
-<div class="interest-item">
-<span class="interest-name">Miniatures</span>
-<span class="interest-keyword">
-Building,
-</span>
-<span class="interest-keyword">
-Painting
-</span>
-</div>
-</div>
-<div class="col-sm-3 section-info big-header">
-I n t e r e s t s
-</div>
-</section>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-</body>
-</html>
+  <div id="resume" class="container-fluid">
+    <section id="header">
+      <div class="row">
+        <img style="width:200px; height: auto;" src="gitme.jpg"></img>
+      </div>
+      <div class="row">
+        <h1 class="name col-sm-12">Oliver Walters</h1>
+        <h4 class="designation col-sm-12">Programmer</h4>
+      </div>
+      <div class="row media">
+        <div id="profiles">
+          <div class="media-item">
+            <a href="https://twitter.com/captainwalters">Twitter</a>
+          </div>
+        </div>
+        <div class="row contact">
+          <ul>
+            <li class="col-sm-4">
+              <span class="fa fa-globe fa-2x"></span> <a href="https://github.com/captainwalters">https://github.com/captainwalters</a>
+            </li>
+            <li class="col-sm-4">
+              <span class="fa fa-envelope fa-2x"></span> <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="95faf9fce3f0e7bbe2f4f9e1f0e7e6a4a3a6d5f2f8f4fcf9bbf6faf8">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+            </li>
+            <li class="col-sm-4">
+              <span class="fa fa-phone fa-2x"></span> (+44)7828086377
+            </li>
+          </ul>
+        </div>
+        <div class="row location">
+          <div class="col-sm-12">
+            <span class="fa fa-map-marker fa-2x"></span>
+            <span>
+              4 Eaton Manor, The Drive,
+              BN3-3PT,
+              Brighton,
+              UK,
+              East Sussex
+            </span>
+          </div>
+        </div>
+      </section>
+      <section id="basics">
+        <div class="row summary">
+          <span class="fa fa-quote-left fa-2x"></span>
+          <span>Oliver is a dedicated and driven developer and community leader. He is a big advocate of student run hackathons and increasing learning and personal development within the community.</span>
+          <span class="fa fa-quote-right fa-2x"></span>
+        </div>
+      </section>
+      <section id="work" class="row">
+        <div class="col-sm-3 section-info">
+          W o r k
+        </div>
+        <div class="col-sm-9">
+          <div class="col-sm-12 work-item">
+            <p class="col-sm-7">
+              <span class="work-position">President</span>,
+              <a href="https://www.hacksocsussex.co.uk">HackSocSussex</a>
+            </p>
+            <div class="col-sm-12 work-summary">
+              <p>
+                The University of Sussex’s hackathon society. Generally overseeing the committee, whilst also planning events, outreaching to the students of the university, dealing with the administration and finance and increasing the reputation and exposure for the University of Sussex and it’s students within the hackathon community.
+              </p>
+            </div>
+            <div class="col-sm-12 work-highlights">
+              <ul>
+                <li>Founded society</li>
+                <li>Successfully organised and ran a student hackathon</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 work-item">
+            <p class="col-sm-7">
+              <span class="work-position">Head Organiser</span>,
+              <a href="https://hacksussex.org">HackSussex</a>
+            </p>
+            <div class="col-sm-12 work-summary">
+              <p>
+                The first student run hackathon to take place at the University of Sussex. Securing sponsorship from companies such as GitHub and Brandwatch, along with managing the budget and the organization and logistics of the event. The first event proved to be a success with great feedback from sponsors and participants.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 work-item">
+            <p class="col-sm-7">
+              <span class="work-position">Head Organiser</span>,
+              <a href="https://susshacks.org">SussHacks</a>
+            </p>
+            <div class="col-sm-12 work-summary">
+              <p>
+                Currently organising a second hackathon at the University of Sussex.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="volunteer" class="row">
+        <div class="col-sm-3 section-info small-header">
+          V o l u n t e e r
+        </div>
+        <div class="col-sm-9">
+          <div class="col-sm-12 volunteer-item">
+            <p class="col-sm-7">
+              <span class="volunteer-position">Ambassador</span>,
+              <a href="https://www.stem.org.uk/">STEM learning</a>
+            </p>
+            <div class="col-sm-12 volunteer-summary">
+              <p>
+                Helping demonstrate STEM roles to under 19&#x27;s in the local community.
+              </p>
+            </div>
+            <div class="col-sm-12 volunteer-highlights">
+              <ul>
+                <li>In training</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 volunteer-item">
+            <p class="col-sm-7">
+              <span class="volunteer-position">Buddy Scheme Mentor</span>,
+              <a href="http://www.buddyscheme.com/">University of Sussex Students Union</a>
+            </p>
+            <div class="col-sm-12 volunteer-summary">
+              <p>
+                Helping new students get to grips with the environment and university life.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 section-info big-header">
+          V o l u n t e e r
+        </div>
+      </section>
+      <section id="education" class="row">
+        <div class="col-sm-3 section-info">
+          E d u c a t i o n
+        </div>
+        <div class="col-sm-9">
+          <div class="col-sm-12 education-item">
+            <p class="col-sm-7">
+              <span class="education-institution fa fa-university">University of Sussex</span>
+            </p>
+            <p class="col-sm-5 duration">
+              <span class="fa fa-clock-o"></span>
+              2015-09-16 -- 2019-06-11
+            </p>
+            <div class="col-sm-12 education-subject">
+              <p>
+                <span class="bold">Area :</span> Computing Sciences
+                | <span class="bold">Level :</span> Bachelor
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 education-item">
+            <p class="col-sm-7">
+              <span class="education-institution fa fa-university">City College of Brighton and Hove</span>
+            </p>
+            <p class="col-sm-5 duration">
+              <span class="fa fa-clock-o"></span>
+              2013-09-04 -- 2014-06-23
+            </p>
+            <div class="col-sm-12 education-subject">
+              <p>
+                <span class="bold">Area :</span> Access to Computing
+                | <span class="bold">Level :</span> Access to Higher Education
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="row">
+        <div class="col-sm-3 section-info small-header">
+          S k i l l s
+        </div>
+        <div class="col-sm-9">
+          <table class="table table-hover">
+            <tr class="skills-header">
+              <th>Skill</th>
+              <th>Level</th>
+              <th>Specifics</th>
+            </tr>
+            <tr class="skills-rows">
+              <td class="bold">Web Development</td>
+              <td>Working knowledge</td>
+              <td>
+                HTML,
+                CSS,
+                Javascript,
+                Jquery
+              </td>
+            </tr>
+            <tr class="skills-rows">
+              <td class="bold">Programming</td>
+              <td>Working knowledge</td>
+              <td>
+                Java,
+                C,
+                C++
+              </td>
+            </tr>
+            <tr class="skills-rows">
+              <td class="bold">Programming</td>
+              <td>Basic knowledge</td>
+              <td>
+                Python,
+                VBA,
+                VB.net
+              </td>
+            </tr>
+            <tr class="skills-rows">
+              <td class="bold">Databases</td>
+              <td>Basic knowledge</td>
+              <td>
+                MS Access,
+                MySQL
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-sm-3 section-info big-header">
+          S k i l l s
+        </div>
+      </section>
+      <section id="languages" class="row">
+        <div class="col-sm-3 section-info">
+          L a n g u a g e s
+        </div>
+        <div class="col-sm-9">
+          <div class="col-sm-12 lang-item">
+            <span class="lang-name fa fa-language"> English</span>
+            <span class="lang-fluency fa fa-ellipsis-h"> Native speaker</span>
+          </div>
+        </div>
+      </section>
+      <section id="interests" class="row">
+        <div class="col-sm-3 section-info small-header">
+          I n t e r e s t s
+        </div>
+        <div class="col-sm-9">
+          <div class="interest-item">
+            <span class="interest-name">Hackathons</span>
+            <span class="interest-keyword">
+              Mentoring,
+            </span>
+            <span class="interest-keyword">
+              Competing
+            </span>
+          </div>
+          <div class="interest-item">
+            <span class="interest-name">Miniatures</span>
+            <span class="interest-keyword">
+              Building,
+            </span>
+            <span class="interest-keyword">
+              Painting
+            </span>
+          </div>
+        </div>
+        <div class="col-sm-3 section-info big-header">
+          I n t e r e s t s
+        </div>
+      </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  </body>
+  </html>
